@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NeuralNetwork", "NeuralNetwork\NeuralNetwork.csproj", "{DF98A20E-BF4D-436C-BB6D-7ADCE40C7016}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeckOfCards", "DeckOfCards\DeckOfCards.csproj", "{B25A5365-9223-42BE-8D36-2C7D9B56970B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Helpers", "Helpers\Helpers.csproj", "{F3DE879B-2D05-4DAE-BF70-8BDAAF6B640C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeckOfCardsTest", "DeckOfCardsTest\DeckOfCardsTest.csproj", "{F78B174E-9ED0-49DA-822B-1EB0D91691B9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UnitTests", "UnitTests", "{EC9EC9F5-7B6F-4654-8CF9-FB53FB6B9135}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DF98A20E-BF4D-436C-BB6D-7ADCE40C7016}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF98A20E-BF4D-436C-BB6D-7ADCE40C7016}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF98A20E-BF4D-436C-BB6D-7ADCE40C7016}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF98A20E-BF4D-436C-BB6D-7ADCE40C7016}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B25A5365-9223-42BE-8D36-2C7D9B56970B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B25A5365-9223-42BE-8D36-2C7D9B56970B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B25A5365-9223-42BE-8D36-2C7D9B56970B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B25A5365-9223-42BE-8D36-2C7D9B56970B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3DE879B-2D05-4DAE-BF70-8BDAAF6B640C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3DE879B-2D05-4DAE-BF70-8BDAAF6B640C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3DE879B-2D05-4DAE-BF70-8BDAAF6B640C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3DE879B-2D05-4DAE-BF70-8BDAAF6B640C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F78B174E-9ED0-49DA-822B-1EB0D91691B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F78B174E-9ED0-49DA-822B-1EB0D91691B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F78B174E-9ED0-49DA-822B-1EB0D91691B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F78B174E-9ED0-49DA-822B-1EB0D91691B9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F78B174E-9ED0-49DA-822B-1EB0D91691B9} = {EC9EC9F5-7B6F-4654-8CF9-FB53FB6B9135}
+	EndGlobalSection
+EndGlobal
